@@ -1,4 +1,4 @@
-# rbxts-transformer-services
+# rbxts-transformer-assert
 This is a transformer that converts all assert statements into if then error statements.
 
 ## Example
@@ -26,7 +26,7 @@ assert(IsValid(c)) -- no change because there is no second argument
 
 # Installation
 
-`npm i rbxts-transform-env`, then in your tsconfig.json:
+`npm i rbxts-transformer-assert`, then in your tsconfig.json:
 
 ```json
     "compilerOptions": {
