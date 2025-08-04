@@ -1,13 +1,13 @@
 {
-	"name": "rbxts-transformer-services",
+	"name": "rbxts-transformer-assert",
 	"version": "1.1.1",
-	"description": "A transformer that converts @rbxts/services imports into plain GetService calls.",
+	"description": "A transformer that converts assert statements into if then error statements.",
 	"main": "out/index.js",
-	"author": "Fireboltofdeath <fireboltofpublic@gmail.com> (https://github.com/Fireboltofdeath)",
+	"author": "DevInfinitum",
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/FireTS/rbxts-transformer-services.git"
+		"url": "https://github.com/hatmatty/rbxts-transformer-assert.git"
 	},
 	"peerDependencies": {
 		"typescript": "^5.2.2"
